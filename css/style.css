@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* 속성: 값; */
+    width: 100%; /* 가로길이: 100%(전체); */
+    height: 50px; /* 세로길이: 50px*/
+    background-color: black; /* 배경색: blue */
+    display: flex; /* 반드시 필요하다 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+nav {
+    width: 60%;
+    height: 100%; /* header 에서의 100% */
+    display: flex;
+    justify-content: space-around; /*s-a 요소를 균일하게*/
+    align-items: center;
+}
+
+span {
+   /*color: white;*/
+     
+        color: white;
+        list-style: none;
+        font-family: 'Pretendard-Regular';
+        font-weight: 500;/*글씨의 굵기를 바꿈*/
+        font-size: 20px; /*글씨의 크기*/
+    
+}
+ul{
+
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+li {
+    color: white;
+    list-style: none;
+    font-family: 'Pretendard-Regular';
+    font-weight: 300;/*글씨의 굵기를 바꿈*/
+    font-size: 16px; /*글씨의 크기*/
+}
